@@ -14,7 +14,11 @@
 #
 # Desired loss (MSE) < 1e-4
 # =================================================================================
+<<<<<<< HEAD
 #oke
+=======
+
+>>>>>>> 4f175b36e4ac0618472acd7cf57cc92d01582a99
 
 import numpy as np
 import tensorflow as tf
@@ -38,9 +42,15 @@ def solution_A1():
     models = tf.keras.models.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
     models.compile(optimizer='sgd',
                   loss='mean_squared_error')
+<<<<<<< HEAD
     models.fit(x,y,epochs=1010, callbacks=[callback])
 
     print(models.predict([-2.00, 10.0]))
+=======
+    models.fit(x,y,epochs=1000, callbacks=[callback])
+
+    print(models.predict([-2.0, 10.0]))
+>>>>>>> 4f175b36e4ac0618472acd7cf57cc92d01582a99
     return models
 
 
