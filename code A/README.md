@@ -6,11 +6,11 @@ Setiap skrip menggunakan metode yang berbeda, mulai dari regresi linear sederhan
 
 ## Daftar Isi
 * [Ringkasan](#ringkasan)
-  * [Soal A1: Regresi Linear](#soal-a1-regresi-linear)
-  * [Soal A2: Klasifikasi Gambar (CNN dari Awal)](#soal-a2-klasifikasi-gambar-cnn-dari-awal)
-  * [Soal A3: Klasifikasi Gambar (Transfer Learning)](#soal-a3-klasifikasi-gambar-transfer-learning)
-  * [Soal A4: Klasifikasi Teks (NLP)](#soal-a4-klasifikasi-teks-nlp)
-  * [Soal A5: Peramalan Data Deret Waktu](#soal-a5-peramalan-data-deret-waktu)
+  * [A1: Regresi Linear](#soal-a1-regresi-linear)
+  * [A2: Klasifikasi Gambar (CNN dari Awal)](#soal-a2-klasifikasi-gambar-cnn-dari-awal)
+  * [A3: Klasifikasi Gambar (Transfer Learning)](#soal-a3-klasifikasi-gambar-transfer-learning)
+  * [A4: Klasifikasi Teks (NLP)](#soal-a4-klasifikasi-teks-nlp)
+  * [A5: Peramalan Data Deret Waktu](#soal-a5-peramalan-data-deret-waktu)
 * [Prasyarat](#prasyarat)
 * [Pengaturan & Instalasi](#pengaturan--instalasi)
 * [Cara Menjalankan](#cara-menjalankan)
