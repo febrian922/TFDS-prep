@@ -1,11 +1,11 @@
 # TensorFlow Certificate Training
 
-Repositori ini berisi kumpulan code untuk melatih seraingkaian model *machine learning*, yang menggunakan TensorFlow dan Keras.
+Repositori ini berisi kumpulan code sebagai persiapan dalam sertifikasi TensorFlow dengan serangkaian model *machine learning*, yang menggunakan TensorFlow dan Keras.
 Setiap skrip menggunakan metode yang berbeda, mulai dari regresi linear sederhana hingga topik yang lebih lanjut seperti *transfer learning*, 
 *natural language processing* (NLP), dan peramalan data deret waktu (*time series forecasting*).
 
 ## Daftar Isi
-* [Ringkasan](#ringkasan-soal)
+* [Ringkasan](#ringkasan)
   * [Soal A1: Regresi Linear](#soal-a1-regresi-linear)
   * [Soal A2: Klasifikasi Gambar (CNN dari Awal)](#soal-a2-klasifikasi-gambar-cnn-dari-awal)
   * [Soal A3: Klasifikasi Gambar (Transfer Learning)](#soal-a3-klasifikasi-gambar-transfer-learning)
@@ -15,13 +15,13 @@ Setiap skrip menggunakan metode yang berbeda, mulai dari regresi linear sederhan
 * [Pengaturan & Instalasi](#pengaturan--instalasi)
 * [Cara Menjalankan](#cara-menjalankan)
 
-## Ringkasan Soal
+## Ringkasan
 
 Setiap skrip (`Problem_A*.py`) adalah solusi mandiri yang akan mengunduh datasetnya sendiri, membangun model jaringan saraf, melatihnya, dan menyimpan model yang telah dilatih sebagai berkas HDF5 (`.h5`).
 
 ---
 
-### Soal A1: Regresi Linear
+### A1: Regresi Linear
 - **Berkas:** `Problem_A1.py`
 - **Tujuan:** Melatih sebuah jaringan saraf sederhana untuk menemukan hubungan linear ($Y = X + 9$) antara dua array, `x` dan `y`.
 - **Konsep Utama:** Model `Sequential` dasar, layer `Dense`, *loss function* `mean_squared_error`.
@@ -31,7 +31,7 @@ Setiap skrip (`Problem_A*.py`) adalah solusi mandiri yang akan mengunduh dataset
 
 ---
 
-### Soal A2: Klasifikasi Gambar (CNN dari Awal)
+### A2: Klasifikasi Gambar (CNN dari Awal)
 - **Berkas:** `Problem_A2.py`
 - **Tujuan:** Membangun sebuah *Convolutional Neural Network* (CNN) untuk mengklasifikasikan gambar 'kuda' atau 'manusia'.
 - **Konsep Utama:** CNN, layer `Conv2D` dan `MaxPooling2D`, `ImageDataGenerator` untuk augmentasi data, klasifikasi biner.
@@ -45,7 +45,7 @@ Setiap skrip (`Problem_A*.py`) adalah solusi mandiri yang akan mengunduh dataset
 
 ---
 
-### Soal A3: Klasifikasi Gambar (Transfer Learning)
+### A3: Klasifikasi Gambar (Transfer Learning)
 - **Berkas:** `Problem_A3.py`
 - **Tujuan:** Menyelesaikan masalah klasifikasi 'kuda' atau 'manusia' yang sama, namun kali ini menggunakan metode *transfer learning*.
 - **Konsep Utama:** *Transfer Learning*, ekstraksi fitur, pembekuan layer (*freezing layers*), model pra-terlatih `InceptionV3`.
@@ -58,7 +58,7 @@ Setiap skrip (`Problem_A*.py`) adalah solusi mandiri yang akan mengunduh dataset
 
 ---
 
-### Soal A4: Klasifikasi Teks (NLP)
+### A4: Klasifikasi Teks (NLP)
 - **Berkas:** `Problem_A4.py`
 - **Tujuan:** Membangun sebuah *binary classifier* untuk menentukan sentimen (positif atau negatif) dari ulasan film pada dataset IMDB.
 - **Konsep Utama:** *Natural Language Processing* (NLP), tokenisasi teks, *padding sequences*, layer `Embedding`.
@@ -68,7 +68,7 @@ Setiap skrip (`Problem_A*.py`) adalah solusi mandiri yang akan mengunduh dataset
 
 ---
 
-### Soal A5: Peramalan Data Deret Waktu
+### A5: Peramalan Data Deret Waktu
 - **Berkas:** `Problem_A5.py`
 - **Tujuan:** Membangun sebuah model untuk meramalkan aktivitas bintik matahari (*sunspots*) berdasarkan data historis.
 - **Konsep Utama:** Analisis data deret waktu (*time series*), *windowed datasets*, layer `Conv1D` dan `LSTM`, metrik *Mean Absolute Error* (MAE).
