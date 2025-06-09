@@ -41,6 +41,9 @@ Setiap skrip (`Problem_A*.py`) adalah solusi mandiri yang akan mengunduh dataset
   - `Conv2D` (64 filter) -> `MaxPooling2D`
   - `Flatten` -> `Dropout` -> `Dense` (512 unit) -> `Dense` (1 unit, aktivasi sigmoid)
 - **Dataset:** Dataset *Horse or Human* oleh Laurence Moroney.
+  ```sh
+  https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/image_classification/horses_or_humans.py
+  ```
 - **Target Kinerja:** `accuracy` dan `validation_accuracy` di atas 83%.
 
 ---
@@ -54,6 +57,9 @@ Setiap skrip (`Problem_A*.py`) adalah solusi mandiri yang akan mengunduh dataset
   - **Kepala Kustom:** Output dari layer `mixed7` pada InceptionV3 dihubungkan ke:
      `Flatten` -> `Dense` (512 unit) -> `Dropout` -> `Dense` (1 unit, aktivasi sigmoid).
 - **Dataset:** Dataset *Horse or Human*.
+    ```sh
+  https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/image_classification/horses_or_humans.py
+  ```
 - **Target Kinerja:** `accuracy` dan `validation_accuracy` di atas 97%.
 
 ---
