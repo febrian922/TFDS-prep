@@ -1,6 +1,6 @@
-# Kumpulan Solusi Machine Learning dengan TensorFlow
+# Latihan Machine Learning dengan TensorFlow Dataset
 
-Repositori ini berisi kumpulan solusi untuk berbagai tantangan machine learning yang diimplementasikan menggunakan TensorFlow dan Keras. Problem dibagi menjadi tiga seri (A, B, dan C), masing-masing mencakup tugas-tugas seperti regresi, klasifikasi gambar (termasuk transfer learning), klasifikasi teks, dan peramalan data deret waktu (*time series*).
+Repositori ini berisi kumpulan code untuk persiapan sertifikasi machine learning yang diimplementasikan menggunakan TensorFlow dan Keras. Problem dibagi menjadi tiga seri (A, B, dan C), masing-masing mencakup tugas-tugas seperti regresi, klasifikasi gambar (termasuk transfer learning), klasifikasi teks, dan peramalan data deret waktu (*time series*).
 
 ## Code A
 
