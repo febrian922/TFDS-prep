@@ -1,13 +1,11 @@
-# Latihan Soal Machine Learning dengan TensorFlow
+# TensorFlow Certificate Training
 
-Repositori ini berisi kumpulan solusi untuk serangkaian soal dasar *machine learning*, yang diimplementasikan menggunakan TensorFlow dan Keras. 
-Setiap skrip membahas domain yang berbeda, mulai dari regresi linear sederhana hingga topik yang lebih lanjut seperti *transfer learning*, 
+Repositori ini berisi kumpulan code untuk melatih seraingkaian model *machine learning*, yang menggunakan TensorFlow dan Keras.
+Setiap skrip menggunakan metode yang berbeda, mulai dari regresi linear sederhana hingga topik yang lebih lanjut seperti *transfer learning*, 
 *natural language processing* (NLP), dan peramalan data deret waktu (*time series forecasting*).
 
-Soal-soal ini dirancang untuk membangun pemahaman yang kuat tentang konsep-konsep inti *deep learning* dan penerapan praktisnya.
-
 ## Daftar Isi
-* [Ringkasan Soal](#ringkasan-soal)
+* [Ringkasan](#ringkasan-soal)
   * [Soal A1: Regresi Linear](#soal-a1-regresi-linear)
   * [Soal A2: Klasifikasi Gambar (CNN dari Awal)](#soal-a2-klasifikasi-gambar-cnn-dari-awal)
   * [Soal A3: Klasifikasi Gambar (Transfer Learning)](#soal-a3-klasifikasi-gambar-transfer-learning)
