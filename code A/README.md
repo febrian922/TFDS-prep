@@ -4,17 +4,6 @@ Repositori ini berisi kumpulan code sebagai persiapan dalam sertifikasi TensorFl
 Setiap skrip menggunakan metode yang berbeda, mulai dari regresi linear sederhana hingga topik yang lebih lanjut seperti *transfer learning*, 
 *natural language processing* (NLP), dan peramalan data deret waktu (*time series forecasting*).
 
-## Daftar Isi
-* [Ringkasan](#ringkasan)
-  * [A1: Regresi Linear](#a1-regresi-linear)
-  * [A2: Klasifikasi Gambar (CNN dari Awal)](#a2-klasifikasi-gambar-cnn-dari-awal)
-  * [A3: Klasifikasi Gambar (Transfer Learning)](#a3-klasifikasi-gambar-transfer-learning)
-  * [A4: Klasifikasi Teks (NLP)](#a4-klasifikasi-teks-nlp)
-  * [A5: Peramalan Data Deret Waktu](#a5-peramalan-data-deret-waktu)
-* [Prasyarat](#prasyarat)
-* [Pengaturan & Instalasi](#pengaturan--instalasi)
-* [Cara Menjalankan](#cara-menjalankan)
-
 ## Ringkasan
 
 Setiap skrip (`Problem_A*.py`) adalah solusi mandiri yang akan mengunduh datasetnya sendiri, membangun model jaringan saraf, melatihnya, dan menyimpan model yang telah dilatih sebagai berkas HDF5 (`.h5`).
